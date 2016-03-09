@@ -8,42 +8,17 @@
 </head>
 <body ng-app="portfolioSite">
   <div class="container" ng-controller="mainCtrl">
-      <!-- <div class="intro">
-        <h1>Rachel Warren</h1>
+      <intro></intro>
 
-        <h2>Front-End Developer</h2>
-      </div> -->
-
-      <div class="navigation" id="nav-top">
-        <ul>
-          <li><a href="" ng-click="helloWorld()">About Me</a></li>
-          <li><a href="">Projects</a></li>
-        </ul>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/rwarren17"><img src="images/social-icons/LinkedIn.png"</img></a>
-          <a href="https://github.com/rewarren" id="github"><img src="images/social-icons/Github.png"</img></a>
-          <a href="https://twitter.com/rachwarren17" id="twitter"><img src="images/social-icons/Twitter.png"</img></a>
-          <a href="http://codepen.io/lehcar17/" id="codepen"><img src="images/social-icons/Codepen.png"</img></a>
-        </div>
-      </div>
-
-      <div ng-repeat="project in projects">
-        <div class="projects">
-          <img src="{{project.photoUrl}}" class="screenshot"></img>
-          <div class="project-info">
-            <h1>{{project.name}}</h1>
-            <h2><a href={{project.applink}}>Check it out</a>
-              or
-            <a href={{project.github}}>See the code</a></h2>
-            <h3>{{project.blurb}}</h3>
-          </div>
-        </div>
-      </div>
+      <navigation></navigation>
 
 
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
   <script src="scripts/app.js" type="text/javascript"></script>
   <script src="scripts/directives/navigation.js" type="text/javascript"></script>
+  <script src="scripts/directives/intro.js" type="text/javascript"></script>
+  <script src="scripts/directives/projects.js" type="text/javascript"></script>
+  <script src="scripts/services/projects.js" type="text/javascript"></script>
 </body>
 </html>
