@@ -86,6 +86,11 @@ body {
   font-size: 30px;
 }
 
+.intro h3 {
+  margin-top: 20px;
+  font-size: 80%;
+}
+
 .navigation {
   position: relative;
   width: 100%;
@@ -131,7 +136,7 @@ body {
 
 /*PROJECTS TEMPLATE*/
 
-.projects {
+.projects, .about {
   margin: 0 20px 40px;
   background: #fff;
   opacity: 0.9;
@@ -159,4 +164,17 @@ body {
 .projects h3 {
   font-weight: lighter;
   font-size: 90%;
+}
+
+.about h1{
+  font-weight: lighter;
+  font-size: 95%;
+  margin: 20px 0;
+  text-aling: justify;
+}
+
+.about .contact li{
+  list-style: none;
+  font-size: 90%;
+text-align: center;
 }
