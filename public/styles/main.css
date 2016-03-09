@@ -53,7 +53,9 @@ body {
   background-position: center;
   /*opacity: .40;*/
   width: 100%;
-  font-family: 'Righteous', cursive;
+  /*font-family: 'Righteous', cursive;*/
+  /*font-family: 'Ledger', serif;*/
+  font-family: 'Merriweather Sans', sans-serif;
   height: 100%;
 }
 
