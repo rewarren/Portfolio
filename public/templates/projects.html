@@ -1,0 +1,12 @@
+<div ng-repeat="project in projects">
+  <div class="projects">
+    <img src="{{project.photoUrl}}" class="screenshot"></img>
+    <div class="project-info">
+      <h1>{{project.name}}</h1>
+      <h2><a href={{project.applink}}>Check it out</a>
+        or
+      <a href={{project.github}}>See the code</a></h2>
+      <h3>{{project.blurb}}</h3>
+    </div>
+  </div>
+</div>
