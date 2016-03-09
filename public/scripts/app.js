@@ -1,27 +1,31 @@
-angular.module('portfolioSite',[])
+angular.module('portfolioSite',['ngRoute'])
 
-.controller('mainCtrl', function($scope, projectService){
-  $scope.helloWorld = function(){
-    console.log("hello world!! About me")
-  }
+.config(['$routeProvider', function($routeProvider){
+  $routeProvider
+  .when('/', {
+    templateUrl: 'templates/intro.html',
+    controller: 'mainCtrl'
+  })
+  .when('/about', {
+    templateUrl: 'templates/about.html',
+    controller: 'mainCtrl'
+  })
+  .when('/projects', {
+    templateUrl: 'templates/projects.html',
+    controller: 'mainCtrl'
+  })
+  .otherwise({
+    redirectTo: '/'
+  })
+}])
 
-  // $scope.projects = function(){
-  //   console.log("take me to projects!")
-  // }
+
+.controller('mainCtrl', function($scope, projectService, $http){
 
   projectService.getProjects(function(response){
     console.log(response.data)
     var projects = response.data
     $scope.projects = projects;
   })
-
-})
-
-.service('projectService', function($http){
-
-  this.getProjects = function(callback){
-    $http.get('mock/projects.json')
-    .then(callback)
-  }
 
 })
