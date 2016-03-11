@@ -1,0 +1,27 @@
+.about {
+  margin: 0 20px 40px;
+  background: #fff;
+  opacity: 0.9;
+  padding: 15px;
+  overflow: auto;
+}
+
+.about h1{
+  font-weight: lighter;
+  font-size: 95%;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.about .contact li{
+  list-style: none;
+  font-size: 90%;
+  text-align: center;
+}
+
+.about img {
+  width: 100px;
+  margin: 10px;
+  display: block;
+  float: left;
+}

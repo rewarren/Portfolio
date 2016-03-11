@@ -1,0 +1,42 @@
+.navigation {
+  position: relative;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.navigation #nav-main {
+  margin-top: 450px;
+}
+
+.navigation #nav-top {
+  margin-top: 0;
+  color: #fff;
+}
+
+.navigation ul {
+  margin-bottom: 20px;
+}
+
+.navigation li {
+  list-style: none;
+  display:inline;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.nav-main li a {
+    color: #875249;
+    font-size: 110%;
+}
+
+#nav-top li a {
+    color: #fff;
+    font-size: 110%;
+}
+
+.social-icons a {
+  padding: 0 10px;
+}

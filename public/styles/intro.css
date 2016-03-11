@@ -1,0 +1,21 @@
+.intro {
+  color: #f4f1ed;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -80px;
+}
+
+.intro h1 {
+  font-size: 80px;
+}
+
+.intro h2 {
+  font-size: 30px;
+}
+
+.intro h3 {
+  margin-top: 20px;
+  font-size: 80%;
+}
