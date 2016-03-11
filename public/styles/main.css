@@ -170,13 +170,13 @@ body {
   font-weight: lighter;
   font-size: 95%;
   margin: 20px 0;
-  text-aling: justify;
+  text-align: justify;
 }
 
 .about .contact li{
   list-style: none;
   font-size: 90%;
-text-align: center;
+  text-align: center;
 }
 
 .about img {
