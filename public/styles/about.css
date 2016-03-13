@@ -4,6 +4,7 @@
   opacity: 0.9;
   padding: 15px;
   overflow: auto;
+  position: relative;
 }
 
 .about h1{
@@ -13,7 +14,7 @@
   text-align: justify;
 }
 
-.about .contact li{
+.about .resume li{
   list-style: none;
   font-size: 90%;
   text-align: center;

@@ -1,4 +1,5 @@
 @import "navigation.css";
+@import "footer.css";
 @import "intro.css";
 @import "about.css";
 @import "projects.css";
@@ -15,6 +16,9 @@ html {
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 *,
@@ -56,7 +60,6 @@ div {
 /* Custom Styles */
 
 body {
-  height: 100%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -66,9 +69,5 @@ body {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-.container {
-  margin: 0;
+  height: 100%;
 }
