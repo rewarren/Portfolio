@@ -1,0 +1,31 @@
+
+.container {
+  min-height: 100%;
+  margin-bottom: -40px;
+}
+
+.container:after {
+  content: "";
+  display: block;
+}
+
+.footer,
+.container:after {
+  height: 40px;
+}
+
+.footer {
+  font-size: 32%;
+  width: 100%;
+  color: #fff;
+}
+.available {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 25px;
+  width: 170px;
+  height: 100%;
+  padding: 7px;
+  text-align: center;
+  margin: 0 auto;
+  overflow-y:auto;
+}
