@@ -1,5 +1,12 @@
 [
   {
+    "name":"WiFinder",
+    "applink":"https://wifinder-app.herokuapp.com/",
+    "github":"https://github.com/rewarren/wifinder",
+    "blurb":"An application to help users locate public WiFi in Washington, D.C. Created using Ruby on Rails, WiFinder was a collaborative project between Web Development and UX students at General Assembly.",
+    "photoUrl":"images/projects/wifinder.jpg"
+  },
+  {
     "name":"Elephant Trivia",
     "applink":"http://rewarren.github.io/Elephant-Trivia/",
     "github":"https://github.com/rewarren/Elephant-Trivia",
@@ -12,12 +19,5 @@
     "github":"https://github.com/rewarren/wwsg",
     "blurb":"a Ruby on Rails application inspired by my friend Silvia, who always knows a great place to dine.",
     "photoUrl":"images/projects/wwsg.jpg"
-  },
-  {
-    "name":"WiFinder",
-    "applink":"https://wifinder-app.herokuapp.com/",
-    "github":"https://github.com/rewarren/wifinder",
-    "blurb":"An application to help users locate public WiFi in Washington, D.C. Created using Ruby on Rails, WiFinder was a collaborative project between Web Development and UX students at General Assembly.",
-    "photoUrl":"images/projects/wifinder.jpg"
   }
 ]
